@@ -12,7 +12,7 @@ interface Props {
   borderStyle?: string;
 }
 
-const QuantityButton = ({ product, className, borderStyle }: Props) => {
+const QuantityButton = ({ product }: Props) => {
   const { addItem, removeItem, getItemCount } = useCartStore();
 
   const handleRemoveProduct = () => {
@@ -33,6 +33,8 @@ const QuantityButton = ({ product, className, borderStyle }: Props) => {
 
   const itemsCount = getItemCount(product?._id);
   const isOutOfStock = product?.stock === 0;
+
+  console.log(isOutOfStock);
 
   return (
     <div className={cn("flex items-center gap-1 pb-1 text-base")}>
