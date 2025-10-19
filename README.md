@@ -12,3 +12,5 @@ Seo işlemleri gerçekleştirildi.
 ![Berri4](./screenshots/berri4.PNG)
 ![Berri5](./screenshots/berri5.PNG)
 ![Berri6](./screenshots/berri6.PNG)
+
+https://berri-zqzo-f0svb2iu4-orkuns-projects-1f2a29dc.vercel.app
